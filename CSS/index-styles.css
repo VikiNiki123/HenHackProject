@@ -1,56 +1,124 @@
 body{
-    background-color: azure;
-    margin-left: 15%;
+    background-color: rgba(240, 222, 187, 0.2);
+    color: rgb(33, 26, 20);
+
+    padding-right: 25px;
     margin-right: 15%;
-    border-radius: 3px;
-    border-color: blue;
+    border-right: double;
+
+    padding-left: 25px;
+    margin-left: 15%;
+    border-left: double;
+
+    padding-bottom: 10px;
+    margin-bottom:10px;
 }
 
 #title{
     font-size: 60px;
     text-align: center;
+    text-decoration: none;
+    color: rgb(35, 80, 119)
 }
 
 nav{
     text-align: center;
 }
 
-#world-assocation{
-    width: 15px;
-    height: 50%;
-    border-radius: 5px;
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color:rgba(35, 80, 119, 0.6);
 }
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(35, 80, 119);
+}
+
+
 
 .information-body{
     text-align: center;
+    
 }
 
+.container1{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 0.01fr 0.01fr;
+    column-gap: 5px;
+}
+
+
 .subheader{
-    font-size: large;
+    font-size: 20px;
+}
+
+.field{
+    background-color: rgba(137, 176, 155, 0.4);
+    color: rgb(33, 26, 20);
+    padding: 2px;
+    padding-left: 6px;
+    border-radius: 3%;
+    border-width: 5px;
+    border-style: double
 }
 
 #acronym{
+    padding-left: 10%;
     text-align: justify;
-    margin-left: 40%;
+    font-size: 350%;
+    border-radius: 7px;
+}
+
+.acronym-buttons{
+    background-color: rgb(255, 126, 117);
+    box-shadow: 3px 5px 2px rgba(231, 94, 84, 0.3);
+    color: whitesmoke;
+    font-size: 50px;
+    border-radius: 20px;
+    border-color: rgb(231, 94, 84);
+    margin-bottom: 5px;
 }
 
 #c-button{
-    color: red;
+    background-color: rgba(137, 176, 155, 0.4);
+    padding: 6px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    margin-right: 15%;
 }
 
 #r-button{
-    color: red;
+    background-color: rgba(137, 176, 155, 0.4);
+    padding-left: 6px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    margin-right: 15%;
 }
 
 #a-button{
-    color: red;
+    background-color: rgba(137, 176, 155, 0.4);
+    padding-left: 6px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    margin-right: 15%;
 }
 
 #a-button-2{
-    color: red;
+    background-color: rgba(137, 176, 155, 0.4);
+    padding-left: 6px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    margin-right: 15%;
 }
 
 #p-button{
-    color: red;
+    background-color: rgba(137, 176, 155, 0.4);
+    padding-left: 6px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    margin-right: 15%;
 }
 
