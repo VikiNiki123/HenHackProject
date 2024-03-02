@@ -1,0 +1,56 @@
+body{
+    background-color: azure;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 3px;
+    border-color: blue;
+}
+
+#title{
+    font-size: 60px;
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+
+#world-assocation{
+    width: 15px;
+    height: 50%;
+    border-radius: 5px;
+}
+
+.information-body{
+    text-align: center;
+}
+
+.subheader{
+    font-size: large;
+}
+
+#acronym{
+    text-align: justify;
+    margin-left: 40%;
+}
+
+#c-button{
+    color: red;
+}
+
+#r-button{
+    color: red;
+}
+
+#a-button{
+    color: red;
+}
+
+#a-button-2{
+    color: red;
+}
+
+#p-button{
+    color: red;
+}
+
