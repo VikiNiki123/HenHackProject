@@ -1,0 +1,38 @@
+[
+    {
+        "image": "images/accurate_card.png",
+        "name": "accurate"
+    },
+    {
+        "image": "images/baised_card.png",
+        "name": "baised"
+    },
+    {
+        "image": "images/correctness_card.png",
+        "name": "correctness"
+    },
+    {
+        "image": "images/factual_card.png",
+        "name": "factual"
+    },
+    {
+        "image": "images/fake_card.png",
+        "name": "fake"
+    },
+    {
+        "image": "images/false_card.png",
+        "name": "false"
+    },
+    {
+        "image": "images/misinfomed_card.png",
+        "name": "misinformed"
+    },
+    {
+        "image": "images/truth_card.png",
+        "name": "truth"
+    },
+    {
+        "image": "images/informed_card.png",
+        "name": "informed"
+    }
+]

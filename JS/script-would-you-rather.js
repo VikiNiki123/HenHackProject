@@ -53,9 +53,8 @@ document.addEventListener('DOMContentLoaded', () => {
     imageElement.style.maxWidth = '600px';
     imageElement.style.width = '100%';
     imageElement.style.marginBottom = '20px';
-    imageElement.style.marginLeft = '12%';
-    imageElement.style.marginRight = '15%';
-    imageElement.style.marginTop = '10px';
+    imageElement.style.margin = 'auto';
+    imageElement.style.display = 'block';
     imageElement.classList.add('question-image');
     questionContainerElement.appendChild(imageElement);
     
