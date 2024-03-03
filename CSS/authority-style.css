@@ -17,8 +17,7 @@ body{
 #title{
     font-size: 60px;
     text-align: center;
-    text-decoration: none;
-    color: rgb(35, 80, 119)
+    color: rgb(35, 80, 119);
 }
 
 nav{
@@ -32,16 +31,18 @@ a{
 }
 
 a:hover{
-    text-decoration: underline;
+    text-decoration: none;
     color: rgb(35, 80, 119);
 }
 
-#quiz-app {
+#would_you_rather_app{
     width: 90%;
-    max-width: 600px;
+    height: 100%;
+    max-width: 800px;
+    max-height: 1000px;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgba(137, 176, 155);
+    background-color: rgba(242, 201, 148, 1);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -61,20 +62,6 @@ a:hover{
     gap: 10px;
 }
 
-.button {
-    padding: 10px 15px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.2s;
-}
-
-.button:hover {
-  background-color: #0056b3;
-}
-
 #controls {
   justify-content: center;
   margin-top: 20px;
@@ -86,7 +73,7 @@ a:hover{
 
 #start-btn, #next-btn {
   padding: 10px 20px;
-  background-color: rgba(35, 80, 119, 1);
+  background-color: rgba(35, 80, 119, 0.6);
   color: whitesmoke;
   border: none;
   border-radius: 5px;
@@ -94,7 +81,7 @@ a:hover{
 }
 
 #start-btn:hover, #next-btn:hover {
-  background-color: rgba(35, 80, 119, 10.6);
+  background-color: rgba(35, 80, 119, 1);
 }
 
 .hide {
@@ -139,15 +126,15 @@ fade-in {
 }
 
 #back-btn{
-  background-color: rgb(255, 126, 117);
-  border: none;
-  float: left;
-  border-radius: 5px;
-  color: white;
-  padding: 10px 15px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 15px;
-  margin-top: 24px;
-  margin-right: 10px; 
-}
+    background-color: rgb(255, 126, 117);
+    border: none;
+    float: left;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 24px;
+    margin-right: 10px; 
+  }
